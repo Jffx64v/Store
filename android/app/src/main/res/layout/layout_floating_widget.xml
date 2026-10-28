@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background_shape">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/your_image" /> <!-- استبدل your_image بصورة مناسبة -->
+
+    <TextView
+        android:id="@+id/touch_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="عدد اللمسات: 0"
+        android:textSize="18sp" />
+</LinearLayout>
